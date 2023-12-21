@@ -1,8 +1,6 @@
 body{
     background-image: url(photo-1563089145-599997674d42.png);
     background-size: cover;
-    /* width: 100vw; */
-    /* height: 100vh; */
 }
 nav.navbar{
     background-color: rgb(181, 114, 226);
@@ -16,10 +14,13 @@ div#music div.row{
     width: 100%;
 }
 div#music div.row img{
-    width: 400px;
+    width: 300px;
+}
+.desc{
+    max-height: 100px;
+    max-width: 300px;
 }
 .desc span{
-    max-width: 400px;
     color: white;
     font-size: x-large;
     background: rgba(0, 0, 0, 0.5);
