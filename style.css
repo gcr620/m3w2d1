@@ -12,12 +12,13 @@ nav.navbar{
 
 div#music div.row{
     width: 100%;
+    row-gap: 25px;
 }
 div#music div.row img{
     width: 300px;
 }
 .desc{
-    max-height: 100px;
+    max-height: 140px;
     max-width: 300px;
 }
 .desc span{
